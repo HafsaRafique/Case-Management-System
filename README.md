@@ -18,16 +18,22 @@ linked via an associated entity meaning all will be foreign keys in the ASSIGNME
 number of cases can be registered in a single COURT. A LAWYER is in CONTACT with a 
 COURT, the court can update case status for a case.
 
-<img src="erd.png">
+<p align="center">
+  <img src="erd.png" alt="ER Diagram" style="border: 1px solid black;">
+</p>
 
 ### SCHEMA DIAGRAM:
 Here, we have a relational model of the ER diagram. All foreign keys are preferably mapped 
 with tables having optional many cardinality and all multivalued attributes form new tables.
 
-<img src="relationals.png">
+<p align="center">
+  <img src="relationals.png" alt="Schema Diagram" style="border: 1px solid black;">
+</p>
 
 ### USE CASE DIAGRAM:
-<img src="usecase.png">
+<p align="center">
+  <img src="usecase.png" alt="Use Case Diagram" style="border: 1px solid black;">
+</p>
 
 ## IMPLEMENTATION:
 ### STEP 1:  SQL CONNECTIVITY:
@@ -36,7 +42,9 @@ database and then created tables in PhpMyAdmin. Refer to project.txt file for al
 ### STEP 2: FRONT END
 Create the front end design.
 
-<img src="frontpage.png">
+<p align="center">
+  <img src="frontpage.png" alt="Front Page Design" style="border: 1px solid black;">
+</p>
 
 ### STEP 3: BACK END
 Write PHP to include SQL. This project performs the following:
@@ -44,4 +52,6 @@ Write PHP to include SQL. This project performs the following:
 2. Data Extraction
 
 ### THE ADMIN PANEL FOR LAWYER INFO:
-<img src="adminpanel.png">
+<p align="center">
+  <img src="adminpanel.png" alt="Admin Panel" style="border: 1px solid black;">
+</p>
