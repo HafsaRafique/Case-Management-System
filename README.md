@@ -17,7 +17,9 @@ The ER diagram of our database comprises of eight tables. A CLIENT, CASE and LAW
 linked via an associated entity meaning all will be foreign keys in the ASSIGNMENT table. A 
 number of cases can be registered in a single COURT. A LAWYER is in CONTACT with a 
 COURT, the court can update case status for a case.
+
 <img src="erd.png">
+
 ### SCHEMA DIAGRAM:
 Here, we have a relational model of the ER diagram. All foreign keys are preferably mapped 
 with tables having optional many cardinality and all multivalued attributes form new tables.
@@ -33,7 +35,9 @@ There are a total of eight tables in our database, first we established connecti
 database and then created tables in PhpMyAdmin. Refer to project.txt file for all table queries in MariaDB format. Use Xampp to connect to PhpMy Admin, Login credientials are : Username root and no password.
 ### STEP 2: FRONT END
 Create the front end design.
+
 <img src="frontpage.png">
+
 ### STEP 3: BACK END
 Write PHP to include SQL. This project performs the following:
 1. DML Statements (INSERT, DELETE, CREATE, UPDATE)
