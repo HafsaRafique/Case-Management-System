@@ -17,4 +17,4 @@ The ER diagram of our database comprises of eight tables. A CLIENT, CASE and LAW
 linked via an associated entity meaning all will be foreign keys in the ASSIGNMENT table. A 
 number of cases can be registered in a single COURT. A LAWYER is in CONTACT with a 
 COURT, the court can update case status for a case.
-
+<img src="erd.png">
