@@ -21,28 +21,23 @@ COURT, the court can update case status for a case.
 ### SCHEMA DIAGRAM:
 Here, we have a relational model of the ER diagram. All foreign keys are preferably mapped 
 with tables having optional many cardinality and all multivalued attributes form new tables.
+
 <img src="relationals.png">
+
 ### USE CASE DIAGRAM:
 <img src="usecase.png">
 
 ## IMPLEMENTATION:
 ### STEP 1:  SQL CONNECTIVITY:
 There are a total of eight tables in our database, first we established connectivity with our 
-database using the following:
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-// Check connection
-if ($conn->connect_error) {
- die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
-Create database and tables in PhpMyAdmin, refer to project.txt file for all table queries in MariaDB format. Use Xampp to connect to PhpMy Admin, Login credientials are : Username root and no password.
+database and then created tables in PhpMyAdmin. Refer to project.txt file for all table queries in MariaDB format. Use Xampp to connect to PhpMy Admin, Login credientials are : Username root and no password.
 ### STEP 2: FRONT END
 Create the front end design.
-<img src="frontpage">
+<img src="frontpage.png">
 ### STEP 3: BACK END
+Write PHP to include SQL. This project performs the following:
+1. DML Statements (INSERT, DELETE, CREATE, UPDATE)
+2. Data Extraction
+
+### THE ADMIN PANEL FOR LAWYER INFO:
+<img src="adminpanel.png">
