@@ -19,7 +19,7 @@ number of cases can be registered in a single COURT. A LAWYER is in CONTACT with
 COURT, the court can update case status for a case.
 
 <p align="center">
-  <img src="erd.png" alt="ER Diagram" style="border: 1px solid black;">
+  <img src="erd.png" alt="ER Diagram"  style="border: 2px solid black; display: block; margin: 0 auto;">
 </p>
 
 ### SCHEMA DIAGRAM:
